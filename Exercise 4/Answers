@@ -3,7 +3,11 @@ Exercise 4
 1. Look at Threshold.cpp and implement the code in Python, and observe
 the results for different threshold values. Comment on the results.
 
-
+Thresholding Image is like a black and white version of the input image.
+Semi Thresholding is a inverse color version of Thresholding Image.
+Binary tresholding has more distinct black and white than thresholding Image.
+Band Thresholding is a inverse color version of Binary tresholding.
+Adaptive Thresholding perfectly draw the outline of the input image.
 
 2. What are the disadvantages of binary threshold?
 

@@ -1,1 +1,11 @@
+Exercise 1
 
+1. How does a program read the cvMat object, in particular, what is the
+order of the pixel structure?
+
+The object is read by cv2.imread as follows:
+src = cv2.imread(sys.argv[1], 1)
+input_planes = []
+input_planes = cv2.split(src)
+
+the order of the pixel structure is [Blue_pixel, Green_pixel, Red_pixel]

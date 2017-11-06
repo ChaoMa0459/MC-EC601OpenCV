@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import sys
 
-src = cv2.imread(sys.argv[1], 1)
+src = cv2.imread(sys.argv[1], 1) # sys.argv[1], the example input is Lenna.png
 cv2.namedWindow('Original image', cv2.WINDOW_AUTOSIZE)
 cv2.imshow( 'Original image', src)
 

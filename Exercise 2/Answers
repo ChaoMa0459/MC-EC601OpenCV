@@ -1,0 +1,7 @@
+1.
+The 3 outputs of each models of colorspaces are very different from those of other models.
+
+2.
+('RGB part', array([106, 122, 225], dtype=uint8))
+('YCC part:', array([151, 181, 103], dtype=uint8))
+('HSV part', array([  4, 135, 225], dtype=uint8))

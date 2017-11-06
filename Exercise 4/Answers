@@ -11,8 +11,8 @@ Adaptive Thresholding perfectly draw the outline of the input image.
 
 2. What are the disadvantages of binary threshold?
 
-
+It loses a lot of important features of the input image.
 
 3. When is Adaptive Threshold useful?
 
-
+When the input image is complex and needs to be simplified, so that the features of the input image can be easily detected.

@@ -1,7 +1,15 @@
-1.
+Exercise 2
+
+1. ColorImage.cpp is a program that takes a look at colorspace conversions in
+OpenCV. Run the code in ColorImage.cpp and comment on the outputs.
+Implement the same thing in Python and save each image.
+
 The 3 outputs of each models of colorspaces are very different from those of other models.
 
-2.
+2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV
+versions of the image. What are the ranges of pixel values in each channel
+of each of the above mentioned colorspaces?
+
 ('RGB part', array([106, 122, 225], dtype=uint8))
 ('YCC part:', array([151, 181, 103], dtype=uint8))
 ('HSV part', array([  4, 135, 225], dtype=uint8))
